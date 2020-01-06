@@ -1,9 +1,12 @@
 <html>
-	<title>  PINK PHANTOM </title>
+	<title>  THE CORE </title>
+
+
+
 
 <head>
 
-
+    <meta charset="utf-8">
 
 		<style>
 
@@ -155,10 +158,27 @@ style = "font-size: 200px; text-align: center; margin-left: 10%; margin-right: 1
 
 <h5>
 
-	<form method="post" action="contact.php">
-    <textarea name="message"></textarea>
-    <input type="submit">
-</form>
+    <?=$thankYou ?>
+
+    <form method="post" action="contact.php">
+        <label style = 'font-size: 100px; text-align: center;'>Name:</label>
+        <input style = 'font-size: 100px;' name="sender"><br>
+
+        <label style = 'font-size: 100px; text-align: center;'>Email address:</label>
+        <input style = 'font-size: 100px; text-align: center;' name="senderEmail">
+
+        <label style = 'font-size: 100px; text-align: center;'>Message:</label>
+        <textarea style = 'font-size: 100px; text-align: center;'rows="5" cols="20" name="message"></textarea>
+
+
+        	<button class = "button button1" style="color: white; box-shadow: 2px 2px 5px rgb(48, 29, 29); cursor: pointer; font-family: 'times new roman';font-weight: bold; font-size: 100px;">
+        <input style = 'font-size: 100px; text-align: center; background-color: black; color:#3750A6;
+
+
+        'type="submit" name="submit"></button>
+    </form>
+
+
 
 
 	</h5>
